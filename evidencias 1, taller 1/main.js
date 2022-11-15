@@ -1,13 +1,12 @@
 addEventListener("DOMContentLoaded", (e) =>{
     let boton = document.querySelector(".btn")
     boton.addEventListener("click", (e)=>{
-            let dol = 4800; 
-            let re ;   
-            let pe =parseInt(document.getElementById('pesos').value, 10);
-             
-            re = pe / dol ;
-            document.getElementById('resul').innerHTML= re;
+        function convertirAF(centigrados){
+    let fahrenheit;
 
+     fahrenheit=(centigrados *9/5) + 32;
+    return fahrenheit;
+    }
+    document.write((0));
+         })
     })
-        
-})
